@@ -1,5 +1,6 @@
+#import library
 import urllib
-import requests
+import requests 
 
 external_ip = urllib.request.urlopen('https://ident.me/').read().decode('utf8')
 
